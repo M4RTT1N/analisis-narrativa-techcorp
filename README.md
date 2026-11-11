@@ -6,6 +6,17 @@ con una recomendación de inversión dirigida al CEO.
 **Autor:** Martín Alfaro Ossandón · [LinkedIn](https://www.linkedin.com/in/martin-alfaro-ossandon/) · m.alfarossandon@gmail.com
 
 
+## Origen de los datos
+
+El dataset `datos_techcorp.csv` fue proporcionado por Desafío Latam como material académico de la Especialidad en Análisis de Datos.
+
+Contiene 97 registros semanales y 29 indicadores relacionados con el desempeño de una transformación digital.
+
+El análisis, las transformaciones, las visualizaciones y las conclusiones forman parte del trabajo desarrollado para el módulo de Fundamentos de la Narrativa de Datos.
+
+**Nota:** Los resultados corresponden a un caso académico y no deben interpretarse como indicadores de una implementación empresarial real.
+
+
 ## El problema
 
 TechCorp lleva 18 meses invirtiendo en transformación digital y los resultados
