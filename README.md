@@ -36,8 +36,7 @@ que una cause la otra, y el análisis no lo afirma.
 
 ## La conclusión
 
-> La transformación digital ya se pagó, pero lleva cuatro trimestres estancada,
-> y el freno dejó de ser tecnológico para pasar a ser de talento.
+> La transformación digital presenta un ROI positivo, pero sus indicadores de desempeño muestran un estancamiento durante los últimos cuatro trimestres. Paralelamente, la disminución de la satisfacción laboral y el aumento de vacantes técnicas sugieren posibles restricciones organizacionales que requieren evaluación.
 
 La recomendación no es continuar ni detener la inversión, sino **redirigirla**:
 cubrir las vacantes técnicas, destinar parte del presupuesto de tecnología a
