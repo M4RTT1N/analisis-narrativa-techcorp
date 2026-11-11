@@ -74,18 +74,39 @@ la productividad.
 
 ## Cómo ejecutar el análisis
 
-### Google Colab
+El notebook permite reproducir el análisis en Google Colab o Jupyter local. Busca primero el dataset en el repositorio y, si no lo encuentra, lo descarga automáticamente desde GitHub.
 
-1. Abrir el archivo `notebook/analisis_techcorp.ipynb` en Google Colab.
+### Opción 1: Google Colab
+
+1. Abrir [analisis_techcorp.ipynb](notebook/analisis_techcorp.ipynb) en Google Colab.
 2. Seleccionar **Runtime → Run all**.
-3. El notebook descargará el dataset público desde GitHub.
-4. Se ejecutarán la limpieza, la agregación trimestral y la generación de cuatro visualizaciones.
+3. El notebook cargará automáticamente el dataset.
+4. Se ejecutarán la limpieza de datos, el análisis trimestral y la generación de cuatro visualizaciones.
 
-**Dependencias:** pandas y matplotlib, declaradas en [requirements.txt](requirements.txt).
+### Opción 2: Jupyter local
 
-**Datos:** [datos_techcorp.csv](datos/datos_techcorp.csv).
+1. Clonar el repositorio:
 
-**Nota:** La ejecución ha sido verificada en Google Colab. La compatibilidad con entornos locales todavía requiere ajustes en la gestión de rutas.
+   ```bash
+   git clone https://github.com/M4RTT1N/analisis-narrativa-techcorp.git
+   cd analisis-narrativa-techcorp
+   ```
+
+2. Instalar las dependencias:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Abrir `notebook/analisis_techcorp.ipynb` en Jupyter Notebook o JupyterLab y ejecutar todas las celdas.
+
+### Datos y dependencias
+
+- **Dataset:** [datos_techcorp.csv](datos/datos_techcorp.csv)
+- **Dependencias de análisis:** [requirements.txt](requirements.txt)
+- **Herramientas:** Python, pandas, matplotlib y Jupyter.
+
+**Reproducibilidad:** La ejecución fue verificada en Google Colab. El notebook incluye búsqueda de rutas locales y descarga automática como alternativa; su ejecución en Jupyter local aún no ha sido verificada de manera independiente.
 
 
 ## Herramientas
