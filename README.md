@@ -5,7 +5,6 @@ con una recomendación de inversión dirigida al CEO.
 
 **Autor:** Martín Alfaro Ossandón · [LinkedIn](https://www.linkedin.com/in/martin-alfaro-ossandon/) · m.alfarossandon@gmail.com
 
----
 
 ## El problema
 
@@ -71,6 +70,23 @@ la productividad.
 | `graficos/` | Los cuatro gráficos en PNG |
 | `documentos/` | Estructura narrativa, presentación ejecutiva y storyboard con script |
 | `datos/` | El dataset original |
+
+
+## Cómo ejecutar el análisis
+
+### Google Colab
+
+1. Abrir el archivo `notebook/analisis_techcorp.ipynb` en Google Colab.
+2. Seleccionar **Runtime → Run all**.
+3. El notebook descargará el dataset público desde GitHub.
+4. Se ejecutarán la limpieza, la agregación trimestral y la generación de cuatro visualizaciones.
+
+**Dependencias:** pandas y matplotlib, declaradas en [requirements.txt](requirements.txt).
+
+**Datos:** [datos_techcorp.csv](datos/datos_techcorp.csv).
+
+**Nota:** La ejecución ha sido verificada en Google Colab. La compatibilidad con entornos locales todavía requiere ajustes en la gestión de rutas.
+
 
 ## Herramientas
 
