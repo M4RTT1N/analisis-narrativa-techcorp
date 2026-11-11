@@ -109,10 +109,6 @@ El notebook permite reproducir el análisis en Google Colab o Jupyter local. Bus
 **Reproducibilidad:** La ejecución fue verificada en Google Colab. El notebook incluye búsqueda de rutas locales y descarga automática como alternativa; su ejecución en Jupyter local aún no ha sido verificada de manera independiente.
 
 
-## Herramientas
-
-Python · pandas · matplotlib · Jupyter (Google Colab)
-
 ## Sobre la limpieza de datos
 
 Dos ajustes antes de analizar:
